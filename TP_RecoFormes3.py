@@ -158,7 +158,7 @@ def afficher_convergence(resultats_fcm,dossier_sortie='results'):
     plt.ylabel('Changement de U', fontsize=13, fontweight='bold')
     plt.title('Comparaison de la convergence pour différentes valeurs de K')
     #plt.legend(loc='upper right')
-    plt.grid(True,alpha=0.3, linestyle=' --')
+    plt.grid(True,alpha=0.3, linestyle='--')
     plt.tight_layout()
     plt.savefig(f'{dossier_sortie}/convergence_comparison.png', dpi=300, bbox_inches='tight')
     plt.show()
